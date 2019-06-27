@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "user",
+      "type": "com.jt.pojo.User",
+      "sourceType": "com.jt.pojo.User"
+    }
+  ],
+  "properties": [
+    {
+      "name": "user.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.jt.pojo.User"
+    },
+    {
+      "name": "user.id",
+      "type": "java.lang.Integer",
+      "sourceType": "com.jt.pojo.User"
+    },
+    {
+      "name": "user.sex",
+      "type": "java.lang.String",
+      "sourceType": "com.jt.pojo.User"
+    },
+    {
+      "name": "user.username",
+      "type": "java.lang.String",
+      "sourceType": "com.jt.pojo.User"
+    }
+  ],
+  "hints": []
+}

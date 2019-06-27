@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: springboot-1-demo
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Administrator
+Implementation-Vendor-Id: com.jt
+Build-Jdk: 1.8.0_92
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/springboot-1-demo
+Created-By: Maven Integration for Eclipse
+
