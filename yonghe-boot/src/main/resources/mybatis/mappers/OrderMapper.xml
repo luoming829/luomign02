@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 订单表的映射文件	
+	namespace值为对应接口的全路径 -->
+<mapper namespace="com.tedu.dao.OrderMapper">
+	<!-- 1.查询所有订单信息 -->
+	<select id="findAll" 
+			resultType="com.tedu.pojo.Order">
+		select id, door_id doorId, 
+		order_no orderNo, order_type orderType,
+		pnum, cashier, order_time orderTime, 
+		pay_time payTime, pay_type payType, price
+		from tb_order
+	</select>
+	
+	<!-- 2.新增订单信息 -->
+	<update id="addOrder">
+		insert into tb_order values
+		(null, #{doorId}, #{orderNo},
+		#{orderType}, #{pnum}, #{cashier},
+		#{orderTime}, #{payTime}, #{payType},
+		#{price});
+	</update>
+	
+	
+	
+
+</mapper>
+
+
+
+
+
