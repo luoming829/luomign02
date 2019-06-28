@@ -21,7 +21,7 @@ public class UserController {
 	public List<User> findAll(){
 		
 		return userService.findAll();
-	}//飞机回国个
+	}//飞机回国个红色的还不是
 	
 	@RequestMapping("/saveUser/{name}/{age}/{sex}")
 	public String saveUser(User user) {
