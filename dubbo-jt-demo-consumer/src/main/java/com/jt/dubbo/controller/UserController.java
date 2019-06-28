@@ -29,6 +29,6 @@ public class UserController {
 		userService.saveUser(user);
 		return "用户入库成功!!!";
 	//11111111111111111111111111111111111	
-		
+	//2222222222222222	
 	}
 }
